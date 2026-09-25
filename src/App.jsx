@@ -56,7 +56,7 @@ function App() {
               <a href="https://www.linkedin.com/in/ashtonshanholtz/" target="_blank" rel="noreferrer">
                 LinkedIn
               </a>
-              <a href="/resume/AshtonShanholtz_Resume.pdf" target="_blank" rel="noreferrer">
+              <a href={`${import.meta.env.BASE_URL}resume/AshtonShanholtz_Resume.pdf`} target="_blank" rel="noreferrer">
                 Resume
               </a>
             </div>
@@ -251,10 +251,10 @@ function App() {
               </p>
             </div>
             <div className="resume-link">
-              <a href="/resume/AshtonShanholtz_Resume.pdf" target="_blank" rel="noreferrer" className="button primary">
+              <a href={`${import.meta.env.BASE_URL}resume/AshtonShanholtz_Resume.pdf`} target="_blank" rel="noreferrer" className="button primary">
                 View Resume
               </a>
-              <a href="/resume/AshtonShanholtz_Resume.pdf" download="AshtonShanholtz_Resume.pdf" className="button secondary">
+              <a href={`${import.meta.env.BASE_URL}resume/AshtonShanholtz_Resume.pdf`} download="AshtonShanholtz_Resume.pdf" className="button secondary">
                 Download Resume
               </a>
             </div>
@@ -286,7 +286,7 @@ function App() {
                 LinkedIn
               </a>
 
-              <a href="/resume/AshtonShanholtz_Resume.pdf" target="_blank" rel="noreferrer">
+              <a href={`${import.meta.env.BASE_URL}resume/AshtonShanholtz_Resume.pdf`} target="_blank" rel="noreferrer">
                 Resume
               </a>
             </div>
