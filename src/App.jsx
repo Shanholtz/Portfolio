@@ -271,6 +271,7 @@ function App() {
             <p>
               I'm always interested in connecting with others to develop
               new skills and share ideas. If you have a project, opportunity, or just want to chat, feel free to reach out!
+              Phone: (304) 240-2280
             </p>
 
             <a href="mailto:adshanholtz@outlook.com" className="button primary">
